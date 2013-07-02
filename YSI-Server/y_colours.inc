@@ -63,13 +63,13 @@ Changelog:
 </remarks>
 \**--------------------------------------------------------------------------**/
 
-#include "..\YSI-Internal\y_version"
+#include "..\YSI_Internal\y_version"
 
-#include "..\YSI-Coding\y_stringhash"
-#include "..\YSI-Core\y_debug"
-#include "..\YSI-Coding\y_remote"
+#include "..\YSI_Coding\y_stringhash"
+#include "..\YSI_Core\y_debug"
+#include "..\YSI_Coding\y_remote"
 
-#include "..\YSI-Core\y_utils"
+#include "..\YSI_Core\y_utils"
 
 #if !defined MAX_TEXT_COLOURS
 	#if defined MAX_TEXT_COLORS
@@ -177,7 +177,7 @@ Changelog:
 #define COLOUR_NAME_HASH(%0)            YHash((%0), false, hash_bernstein, (YSI_g_sCheckSpaces) ? (-1) : (strfind((%0), " ")))
 #define COLOR_NAME_HASH                 COLOUR_NAME_HASH
 
-//#include "..\YSI-Internal\y_colourparse"
+//#include "..\YSI_Internal\y_colourparse"
 
 #if _YSI_USE_X11
 	#include "y_colours/x11def"
