@@ -1,3 +1,40 @@
+# y_colours
+
+Provides many functions for manipulating colours, as well as several thousand pre-defined named colours - including all SA and SA:MP colours, as well as the full X11 colour set.
+
+
+[![sampctl](https://shields.southcla.ws/badge/sampctl-y_colours-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Server/y_colours)
+
+## Installation
+
+To install just this one library:
+
+```bash
+sampctl package install YSI-Server/y_colours
+```
+
+Include in your code and begin using the library:
+
+```pawn
+#include <YSI-Server/y_colours>
+```
+
+## Documentation
+
+* [Quick Start](YSI-Server/y_colours/quick-start.md) - One very simple example of getting started with this library.
+* [Features](YSI-Server/y_colours/features.md) - More features and examples.
+* [FAQs](YSI-Server/y_colours/faqs.md) - Frequently Asked Questions, including errors and solutions.
+* [API](YSI-Server/y_colours/api.md) - Full list of all functions and their meaning.
+* [Internal](YSI-Server/y_colours/internal.md) - Internal developer documentation for the system.
+
+## Testing
+
+To test, simply run the package:
+
+```bash
+sampctl package run
+```
+
 # YSI
 
 ## General Information
@@ -109,34 +146,4 @@ Libraries that have in-game visible effects.
 * [y_races](https://github.com/YSI-Visual/y_races/blob/dev/YSI-Visual/y_races.md)
 * [y_zonenames](https://github.com/YSI-Visual/y_zonenames/blob/dev/YSI-Visual/y_zonenames.md)
 * [y_zonepulse](https://github.com/YSI-Visual/y_zonepulse/blob/dev/YSI-Visual/y_zonepulse.md)
-
-# y_colours
-
-[![sampctl](https://shields.southcla.ws/badge/sampctl-y_colours-2f2f2f.svg?style=for-the-badge)](https://github.com/YSI-Server/y_colours)
-
-## Installation
-
-To install just this one library:
-
-```bash
-sampctl package install YSI-Server/y_colours
-```
-
-Include in your code and begin using the library:
-
-```pawn
-#include <YSI-Server/y_colours>
-```
-
-## Usage
-
-[Click Here] (YSI-Server/y_colours.md)
-
-## Testing
-
-To test, simply run the package:
-
-```bash
-sampctl package run
-```
 
